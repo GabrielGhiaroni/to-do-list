@@ -2,17 +2,18 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 const AddItemArea = styled.View`
-    background-color: #7895B2
+    background-color: #3D7EFF
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     border-radius: 4px;
     max-width: 350px
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
+    box-shadow: 0px 0px 30px #3D7EFF
 `;
 
 const AddItemInput = styled.TextInput`
-    background-color: #F5EFE6;
+    background-color: white;
     font-size: 15px;
     border-radius: 4px;
     height: 50px;

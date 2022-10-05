@@ -17,7 +17,8 @@ const Titulo = styled.Text`
   font-weight: bold;
   text-align: center;
   color: white;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  font-family: Helvetica
 `;
 
 const DailyTasks = styled.Text`
@@ -31,7 +32,8 @@ const Subtitulo = styled.Text`
   text-align: center;
   color: white;
   font-weight: bold;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  font-family: Helvetica
 `;
 
 const Listagem = styled.FlatList`
@@ -52,7 +54,7 @@ export default () => {
   return(
     <Page>
       <Titulo>Bem-vindo(a) ao <DailyTasks>DailyTasks</DailyTasks> </Titulo>
-      <Subtitulo>Organize seu dia-a-dia ☀️  </Subtitulo>
+      <Subtitulo>Organize o seu dia-a-dia ☀️  </Subtitulo>
       <AddItemArea items={items} setItems={setItems} />
       <Listagem 
         data={items}
